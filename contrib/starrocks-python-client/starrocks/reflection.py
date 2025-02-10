@@ -570,7 +570,7 @@ class StarRocksTableDefinitionParser(object):
             r"(?:NULL|'(?:''|[^'])*'|[\-\w\.\(\)]+"
             r"(?: +ON UPDATE [\-\w\.\(\)]+)?)"
             r"))?"
-            r"(?: +(?:GENERATED ALWAYS)? ?AS +(?P<generated>\("
+            r"(?: +(?:GENERATED ALWAYS)? ?AS +(?P<generated>"
             r".*\))? ?(?P<persistence>VIRTUAL|STORED)?)?"
             r"(?: +(?P<autoincr>AUTO_INCREMENT))?"
             r"(?: +COMMENT +\"(?P<comment>(?:\"\"|[^\"])*)\")?"
